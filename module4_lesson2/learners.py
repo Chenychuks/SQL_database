@@ -54,7 +54,7 @@ SELECT * FROM learners
 
 items = cur.fetchall()
 
-print("name" + "\t\t\t email" f"{'.' * 100}")
+print("name" + "\t\t\t email" f"\n{'.' * 50}")
 
 for item in items:
     name, email = item
