@@ -1,0 +1,10 @@
+-- SELECT name, item_id,
+--     CASE 
+--         WHEN quantity < 5 THEN 'RESTOCK'
+--         WHEN quantity > 5 THEN 'STILL_IN_STOCK'           
+--         ELSE 'AVAILABLE'
+--     END AS Order 
+-- FROM stationeries
+-- ORDER BY cost_price;
+
+SELECT * FROM 
